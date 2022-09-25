@@ -29,6 +29,13 @@ body {
     padding-top: 8px;
 }
 
+.wd-small-padding-top {
+    padding-top: 3px;
+}
+.wd-search-padding {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .wd-search-bar-width {
     width: 90%;
 }
@@ -47,25 +54,27 @@ body {
 .wd-rounded-corners-all-around {
     border-radius: 16px;
 }
+.wd-setting-margin-left {
+    padding-left: 20px;
+}
+
 
 /** For Part B */
 .wb-selected-tab-color {
     color: rgb(29, 161, 242);
-    border-bottom: 1px solid;
+    border-bottom: 3px solid;
     border-bottom-color: rgb(29, 161, 242);
 }
 .wb-unselected-tab-color {
     color: rgb(110, 118, 125);
 }
-
 .wd-inline {
     display: inline;
 }
-
-.wb-link-font-size {
+.wb-link-font {
     font-size: 15px;
+    font-weight: bold;
 }
-
 .wb-padding-all-around {
     padding: 16px;
 }
