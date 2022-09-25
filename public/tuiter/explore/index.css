@@ -8,24 +8,42 @@ body {
     border-width: 1px;
 }
 
-.margin-left {
-    margin-left: 16px;
+.wd-padding-left {
+    padding-left: 16px;
+}
+.wd-padding-top {
+    padding-top: 16px;
 }
 
-.margin-right {
-    margin-right: 12px;
-}
-
-.float-right {
-    float: right;
-}
-
-.wd-search-text {
-    color: white;
+/* Part A */
+.wd-bg-dark-gray {
     background-color: darkgray;
 }
+.wd-text-white {
+    color: white;
+}
+.wd-rounded-corners {
+    border-radius: 16px;
+}
+.wd-small-padding-top {
+    padding-top: 8px;
+}
 
-
+.wd-search-bar-width {
+    width: 90%;
+}
+.wd-gear-color {
+    color: blue;
+}
+.wd-unhighlight-link {
+    text-decoration: none;
+}
+.wd-padding-right {
+    padding-right: 12px;
+}
+.float-right  {
+    float: right;
+}
 .wd-rounded-corners-all-around {
     border-radius: 16px;
 }
@@ -40,8 +58,8 @@ body {
     color: rgb(110, 118, 125);
 }
 
-.wb-remove-link {
-    text-decoration: none;
+.wd-inline {
+    display: inline;
 }
 
 .wb-link-font-size {
@@ -54,17 +72,33 @@ body {
 
 
 /* For Part C */
-.wd-suggested-posts-topic-and-num-tweets-font {
+.wd-suggested-posts-topic-tweets-font {
     color: rgb(110, 118, 125);
     font-size: 13px;
 }
 
-.wd-suggested-posts-title-font {
+.wd-suggested-post-title-font {
+    font-size: 14px;
+    font-weight: bold;
     color: white;
-    font-size: 15px;
 }
 
 /* For Part D */
+.wd-suggested-post-author-font {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
 .wd-fit {
-    height:140px;
+    height:100px;
+}
+
+.wd-rounded-corners-top {
+    border-radius: 30px 30px 30px 30px;
+}
+
+/* Part E*/
+.wd-suggested-topic-font {
+    color: lightgray;
+    font-size: 13px;
 }
