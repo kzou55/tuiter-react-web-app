@@ -31,9 +31,6 @@
 .wd-unselected-tab-color {
     color: rgb(110, 118, 125);
 }
-.wd-inline {
-    display: inline;
-}
 .wd-link-font {
     font-size: 15px;
     font-weight: bold;
@@ -49,16 +46,8 @@
 .wd-explore-margin-left {
     margin-left: 40px;
 }
-@media (max-width: 630px) {
-    .wd-hide-small {
-        display: none;
-    }
-}
 .wd-selected-tab-pad-bot {
     padding-bottom: 16px;
-}
-.wd-pad-left-zero {
-    padding-left: 0px;
 }
 .wd-suggested-posts-topic-tweets-font {
     color: rgb(110, 118, 125);
