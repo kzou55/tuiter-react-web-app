@@ -1,36 +1,8 @@
-body {
-    background-color: black;
-}
-
-.wd-border {
-    border-color:  rgb(47, 51, 54);
-    border-style: solid;
-    border-width: 1px;
-}
-
-.wd-padding-left {
-    padding-left: 16px;
-}
-.wd-padding-top {
-    padding-top: 16px;
-}
-
-/* Part A */
 .wd-bg-dark-gray {
     background-color: darkgray;
 }
-.wd-text-white {
-    color: white;
-}
-.wd-rounded-corners {
+.wd-round-search-input {
     border-radius: 16px;
-}
-.wd-small-padding-top {
-    padding-top: 8px;
-}
-
-.wd-small-padding-top {
-    padding-top: 3px;
 }
 .wd-search-padding {
     padding-top: 5px;
@@ -42,14 +14,8 @@ body {
 .wd-gear-color {
     color: blue;
 }
-.wd-unhighlight-link {
-    text-decoration: none;
-}
 .wd-padding-right {
     padding-right: 12px;
-}
-.float-right  {
-    float: right;
 }
 .wd-rounded-corners-all-around {
     border-radius: 16px;
@@ -57,80 +23,64 @@ body {
 .wd-setting-margin-left {
     padding-left: 20px;
 }
-
-
-/** For Part B */
-.wb-selected-tab-color {
+.wd-selected-tab-color {
     color: rgb(29, 161, 242);
     border-bottom: 3px solid;
     border-bottom-color: rgb(29, 161, 242);
 }
-.wb-unselected-tab-color {
+.wd-unselected-tab-color {
     color: rgb(110, 118, 125);
 }
 .wd-inline {
     display: inline;
 }
-.wb-link-font {
+.wd-link-font {
     font-size: 15px;
     font-weight: bold;
 }
-.wb-padding-all-around {
+.wd-padding-all-around {
     padding: 16px;
 }
-
 .wd-margin-left-right {
     margin-left: 16px;
     margin-right: 16px;
 }
 
-.wd-margin-left {
+.wd-explore-margin-left {
     margin-left: 40px;
 }
-
 @media (max-width: 630px) {
     .wd-hide-small {
         display: none;
     }
 }
-
-.wd-padding-bottom {
+.wd-selected-tab-pad-bot {
     padding-bottom: 16px;
 }
-
 .wd-pad-left-zero {
     padding-left: 0px;
 }
-
-
-/* For Part C */
 .wd-suggested-posts-topic-tweets-font {
     color: rgb(110, 118, 125);
     font-size: 13px;
 }
-
 .wd-suggested-post-title-font {
     font-size: 14px;
     font-weight: bold;
     color: white;
 }
-
-/* For Part D */
 .wd-suggested-post-author-font {
     font-size: 12px;
     font-weight: bold;
     color: white;
 }
-.wd-fit {
+.wd-suggested-post-enlarge-height {
     height:100px;
 }
-
-.wd-rounded-corners-top {
-    border-radius: 30px 30px 30px 30px;
-}
-
-/* Part E*/
 .wd-suggested-topic-font {
     color: lightgray;
     font-size: 13px;
+}
+.wd-small-padding-top {
+    padding-top: 6px;
 }

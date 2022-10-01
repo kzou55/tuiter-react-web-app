@@ -1,64 +1,34 @@
-body {
-    background-color: black;
-}
-
-.wd-default-border {
-    border-color: rgb(47, 51, 54);
-    border-style: solid;
-    border-width: 1px;
-}
-
-/* Part A */
-.wd-left-padding {
-    padding-left: 16px;
-}
-.wd-top-padding {
+.wd-padding-top {
     padding-top: 12px;
 }
-.wd-bottom-padding {
+.wd-padding-bottom {
     padding-bottom: 12px;
 }
-
 .wd-bookmark-title-font{
     font-size: 20px;
     color: white;
 }
-
 .wd-bookmark-handle-font {
     color: lightgray;
     font-size: 13px;
-}
-
-/* Part B */
-.wd-circular-image {
+}.wd-circular-image {
     border-radius: 50%;
 }
-
 .wd-float-left {
     float: left;
 }
-.wd-float-right {
-    float: right
-}
-
 .wd-clear-float {
     clear: both;
 }
-
-/* Part C */
 .wd-title-handle-padding {
     padding-left: 12px;
 }
 .wd-title-handle-font-size {
     font-size: 15px;
 }
-.wd-color-white {
-    color: white;
-}
 .wd-color-lgray {
     color: lightgray;
 }
-/* Part D */
 .wd-bookmark-content-font {
     color: white;
     font-size: 15px;
@@ -69,69 +39,50 @@ body {
 .wd-content-padding-left {
     padding-left: 60px;
 }
-
-
 .wd-reduce-margin-top-content {
     margin-top: -8px;
 }
 .wd-reduce-paragraph-bottom-margin {
     margin-bottom: 0px;
 }
-
 .wd-content-max-width {
     max-width: 506px;
 }
-
-/*  Part E */
 .wd-rounded-corners-top {
     border-radius: 30px 30px 0 0;
 }
-
 .wd-rounded-corners-bottom {
     border-radius: 0 0 30px 30px;
 }
-.wd-margin-left {
+.wd-below-content-margin-left {
     margin-left: 60px;
 }
-
-/* Part F */
 .wd-bold {
     font-weight: bold;
 }
-
-.wd-small-padding-top {
+.wd-article-desc-pad-top {
     padding-top: 3px;
 }
 .wd-bookmark-padding-all {
     padding: 12px;
 }
-
 .wd-title-text-border-dim {
     width: 480px;
     height: 80px;
 }
-
-.pos-relative-nudge-up {
+.wd-pos-relative-nudge-up {
     position: relative;
     bottom: 5px;
 }
-
-.reduce-margin-top {
+.wd-reduce-margin-top {
     margin-top: -6px;
-}
-
-
-.wd-unhighlight-link {
-    text-decoration: none;
 }
 .wd-color-red {
     color: red;
 }
-
 .wd-icon-num-space {
     padding-left: 12px;
 }
-
 .wd-icon-spacing {
     table-layout: fixed;
     width: 504px;

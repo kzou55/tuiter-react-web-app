@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+.wd-border {
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+}
+.wd-padding-left {
+    padding-left: 16px;
+}
+.wd-color-white {
+    color: white;
+}
+.wd-unhighlight-link {
+    text-decoration: none;
+}
+.wd-float-right {
+    float: right
+}
