@@ -28,11 +28,6 @@ body {
     color: lightgray;
     font-size: 13px;
 }
-.wd-lgray-border {
-    border-color: lightgray;
-    border-style: solid;
-    border-width: 1px;
-}
 
 /* Part B */
 .wd-circular-image {

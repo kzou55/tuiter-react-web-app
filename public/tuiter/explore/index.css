@@ -79,6 +79,29 @@ body {
     padding: 16px;
 }
 
+.wd-margin-left-right {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.wd-margin-left {
+    margin-left: 40px;
+}
+
+@media (max-width: 630px) {
+    .wd-hide-small {
+        display: none;
+    }
+}
+
+.wd-padding-bottom {
+    padding-bottom: 16px;
+}
+
+.wd-pad-left-zero {
+    padding-left: 0px;
+}
+
 
 /* For Part C */
 .wd-suggested-posts-topic-tweets-font {
