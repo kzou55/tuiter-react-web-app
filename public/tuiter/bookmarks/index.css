@@ -83,8 +83,29 @@
 .wd-icon-num-space {
     padding-left: 12px;
 }
+.wd-max-icon-bar-width {
+    max-width: 506px;
+}
+
+.wd-icon-bar-spacing {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .wd-icon-spacing {
-    table-layout: fixed;
-    width: 504px;
-    border: 1px;
+    display: block;
+    list-style-type: none;
+}
+
+.wd-retweet-pos-down {
+    position: relative;
+    top: 3px;
+}
+
+.wd-icon-bar-pos-up {
+    margin-top: 0px;
+    padding-top: 12px;
+    position: relative;
+    bottom: 6px;
 }

@@ -19,3 +19,10 @@ body {
 .wd-float-right {
     float: right
 }
+.wd-inline {
+    display: inline;
+}
+
+.wd-pad-left-zero {
+    padding-left: 0px;
+}
