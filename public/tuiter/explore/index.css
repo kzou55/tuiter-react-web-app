@@ -11,10 +11,13 @@
 .wd-search-bar-width {
     width: 80%;
 }
-.wd-gear-font{
+.wd-gear{
     color: blue;
-    font-size: 25px;
+    font-size: 30px;
+    position: relative;
+    bottom: 7px;
 }
+
 .wd-padding-right {
     padding-right: 12px;
 }
