@@ -19,6 +19,9 @@ const PostSummaryItem = (post) => {
                 <div class="fw-bold">
                   ${post.title}
                 </div>
+                <div class="text-secondary">
+                  ${post.tweets != null ? post.tweets: ""}
+                </div>
               </div>
               <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3">
                 <img src="${post.image}" class="w-100 rounded-3">

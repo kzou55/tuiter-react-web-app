@@ -1,5 +1,4 @@
-let who;
-export default who = [
+export default [
     {   avatarIcon: 'java.png',
         userName: 'Java', handle: 'Java', },
     {   avatarIcon: 'relativityspace.png',
