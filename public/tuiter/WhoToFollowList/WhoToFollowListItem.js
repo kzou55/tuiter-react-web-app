@@ -14,7 +14,7 @@ const WhoToFollowListItem = (who) => {
               </div>
               @${who.handle}
             </div>
-            <div class="col-3 mt-auto mb-auto ps-0">
+            <div class="col-3 mt-auto mb-auto ps-0 wd-nudge-left">
               <button class="btn btn-primary rounded-pill ms-auto">Follow</button>
             </div>
           </div>

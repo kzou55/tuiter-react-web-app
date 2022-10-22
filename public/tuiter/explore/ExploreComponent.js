@@ -8,7 +8,9 @@ const ExploreComponent = () => {
                    <span class="position-absolute top-0 mt-2 ms-3"><i class="fa fa fa-magnifying-glass"></i></span>
                </div>
                <div class="col-1 pe-0">
-                   <i class="fa-solid fa-gear fa-2x text-primary pt-1 pb-1 float-end"></i>
+                    <a href="explore-settings.html">
+                        <i class="fa-solid fa-gear fa-2x text-primary pt-1 pb-1 float-end mt-auto mb-auto"></i>
+                    </a>
                </div>
            </div>
            <ul class="nav nav-tabs mt-2"> <!-- double check this line -->
@@ -30,7 +32,7 @@ const ExploreComponent = () => {
            </ul>
            <div class="position-relative mt-2 mb-2">
              <img src="../../images/spacexstarship.png" class="w-100">
-             <h1 class="position-absolute start-0 bottom-0 text-white">SpaceX's Starship</h1>
+             <h1 class="position-absolute start-0 bottom-0 text-black fs-2">SpaceX's Starship</h1>
            </div>
            ${PostSummaryList()}
     `);

@@ -43,22 +43,16 @@ const NavigationSidebar = () => {
         <a href="#" class="list-group-item">
           <div class="row">
             <div class="col-2"><i class="fa fa-user"></i></div>
-            <div class="col-10 d-none d-xl-block ps-2">Bookmarks</div>
-          </div>
-        </a>
-        <a href="#" class="list-group-item">
-          <div class="row">
-            <div class="col-2"><i class="fa fa-bookmark"></i></div>
             <div class="col-10 d-none d-xl-block ps-2">Profile</div>
           </div>
         </a>
         <a href="#" class="list-group-item">
           <div class="row">
             <div class="col-2">
-                            <span class="fa-stack fa-2xs">
-                              <i class="fas fa-circle fa-stack-2x"></i>
-                              <i class="fas fa-ellipsis fa-stack-1x fa-inverse"></i>
-                            </span>
+                <span class="fa-stack fa-2xs">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-ellipsis fa-stack-1x fa-inverse"></i>
+                </span>
             </div>
             <div class="col-10 d-none d-xl-block">More</div>
           </div>

@@ -5,3 +5,7 @@ span.fa-stack {
 i.fa-stack-1x {
     color: black;
 }
+
+.wd-nudge-left {
+    margin-left: -10px;
+}
