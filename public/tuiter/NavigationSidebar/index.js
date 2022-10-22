@@ -9,8 +9,8 @@ const NavigationSidebar = () => {
             <div class="col-2"><i class="fa fa-house"></i></div>
             <div class="col-10 d-none d-xl-block ps-2">Home</div>
           </div>
-        </a>
-        <a href="#" class="list-group-item active">
+     </a>
+     <a href="#" class="list-group-item active">
           <div class="row">
             <div class="col-2"><i class="fa fa-hashtag"></i></div>
             <div class="col-10 d-none d-xl-block ps-2">Explore</div>

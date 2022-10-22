@@ -23,3 +23,12 @@
 .wd-bottom-4 {
     bottom: 4px;
 }
+
+span.fa-stack {
+    font-size: 7px;
+}
+
+.wd-nudge-left {
+    margin-left: -10px;
+}
+

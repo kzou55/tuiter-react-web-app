@@ -13,7 +13,7 @@ const ExploreComponent = () => {
                     </a>
                </div>
            </div>
-           <ul class="nav nav-tabs mt-2"> <!-- double check this line -->
+           <ul class="nav nav-tabs mt-2">
              <li class="nav-item">
                 <a class="nav-link active" href="for-you.html">For you</a>
              </li>

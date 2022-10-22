@@ -14,7 +14,7 @@ const WhoToFollowListItem = (
                     <div className="fw-bold">{who.userName}
                         <span className="fa-stack fa-2x wd-verify-icon mb-1">
                                     <i className="fas fa-circle fa-stack-2x"></i>
-                                    <i className="fas fa-check fa-stack-1x"></i>
+                                    <i className="fas fa-check fa-stack-1x fa-inverse"></i>
                                 </span>
                     </div>
                     @{who.handle}
