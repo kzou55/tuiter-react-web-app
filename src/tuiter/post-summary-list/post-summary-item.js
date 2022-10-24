@@ -22,9 +22,7 @@ const PostSummaryItem = (
                             <i className="fas fa-circle fa-stack-2x"></i>
                             <i className="fas fa-check fa-stack-1x fa-inverse"></i>
                         </span>
-                        <span className="text-secondary">
-                            - {post.time}
-                        </span>
+                        <span className="text-secondary"> - {post.time}</span>
                     </div>
                     <div className="fw-bold">
                         {post.title}

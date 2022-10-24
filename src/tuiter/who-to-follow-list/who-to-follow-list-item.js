@@ -5,7 +5,7 @@ const WhoToFollowListItem = (
     }
 ) => {
     return(
-        <li className="list-group-item">
+        <li key={who._id} className="list-group-item">
             <div className="row">
                 <div className="col-2">
                     <img src={`/images/${who.avatarIcon}`} alt="profile icon"
@@ -16,7 +16,7 @@ const WhoToFollowListItem = (
                         <span className="fa-stack fa-2x wd-verify-icon mb-1">
                                     <i className="fas fa-circle fa-stack-2x"></i>
                                     <i className="fas fa-check fa-stack-1x fa-inverse"></i>
-                                </span>
+                        </span>
                     </div>
                     @{who.handle}
                 </div>
