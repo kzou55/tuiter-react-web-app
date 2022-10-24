@@ -2,6 +2,7 @@ import React from "react";
 const PostSummaryItem = (
     {
         post = {
+            "_id": 1,
             "topic": "Space",
             "userName": "SpaceX",
             "time": "2h",
@@ -19,12 +20,12 @@ const PostSummaryItem = (
                     <div>
                         <span className="fw-bold">{post.userName}</span>
                         <span className="fa-stack fa-2xs wd-verify-icon mb-1">
-                            <i className="fas fa-circle fa-stack-2x"></i>
-                            <i className="fas fa-check fa-stack-1x fa-inverse"></i>
-                        </span>
+                        <i className="fas fa-circle fa-stack-2x"></i>
+                        <i className="fas fa-check fa-stack-1x fa-inverse"></i>
+                    </span>
                         <span className="text-secondary">
-                            - {post.time}
-                        </span>
+                        - {post.time}
+                    </span>
                     </div>
                     <div className="fw-bold">
                         {post.title}
