@@ -1,7 +1,11 @@
 import React from "react";
 const WhoToFollowListItem = (
     {
-        who = { userName: 'NASA', handle: 'NASA', avatarIcon: 'nasa.png' }
+        who = {
+            _id: 123,
+            userName: 'NASA',
+            handle: 'NASA',
+            avatarIcon: 'nasa.png' }
     }
 ) => {
     return(
@@ -14,8 +18,8 @@ const WhoToFollowListItem = (
                 <div className="col-7 pe-0">
                     <div className="fw-bold">{who.userName}
                         <span className="fa-stack fa-2x wd-verify-icon mb-1">
-                                    <i className="fas fa-circle fa-stack-2x"></i>
-                                    <i className="fas fa-check fa-stack-1x fa-inverse"></i>
+                            <i className="fas fa-circle fa-stack-2x"></i>
+                            <i className="fas fa-check fa-stack-1x fa-inverse"></i>
                         </span>
                     </div>
                     @{who.handle}
