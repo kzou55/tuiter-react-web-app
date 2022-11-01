@@ -72,7 +72,7 @@ const NavigationSidebar = (
                 </Link>
             </div>
             <div className="d-grid mt-2">
-                <a href="#" className="btn btn-primary btn-block rounded-pill">
+                <a href="/#" className="btn btn-primary btn-block rounded-pill">
                     Tuit
                 </a>
             </div>
