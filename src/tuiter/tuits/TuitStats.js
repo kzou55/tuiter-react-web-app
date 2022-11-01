@@ -22,7 +22,7 @@ const TuitStats = (
                     <i className="fa fa-retweet"></i> {tuit.retuits}
                 </div>
                 <div className="col-3">
-                    <i className={`fa-regular fa-heart ${tuit.liked ? 'wd-red' : ''}`}></i> {tuit.likes}
+                    <i className={`fa-heart ${tuit.liked ? 'wd-red fa' : 'fa-regular'}`}></i> {tuit.likes}
                 </div>
                 <div className="col-3">
                     <i className="fa fa-arrow-up-from-bracket">

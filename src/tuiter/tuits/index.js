@@ -9,7 +9,7 @@ const TuitsList = () => {
         <ul className="list-group">
             {
                 tuitsArray.map(tuit =>
-                    <TuitItem tuit={tuit}/> )
+                    <TuitItem key={tuit._id} tuit={tuit}/> )
             }
         </ul>
     );

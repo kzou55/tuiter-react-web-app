@@ -1,63 +1,65 @@
 import React from "react";
 import '@fortawesome/fontawesome-free/css/all.css'
+import {Link} from "react-router-dom";
 
 const NavigationSidebar = (
     {
         active = 'explore'
     }
 ) => {
+
     return (
         <div>
             <div className="list-group">
-                <a href="/#" className="list-group-item">
+                <Link to="/tuiter" href="#" className={`list-group-item ${active === 'tuiter'?'active':''}`}>
                     <div className="row">
                         <div className="col-2"><i className="fab fa-twitter"></i></div>
                         <div className="col-10 d-none d-xl-block ps-2">Tuiter</div>
                     </div>
-                </a>
-                <a href="/#" className={`list-group-item ${active === 'home'?'active':''}`}>
+                </Link>
+                <Link to="/tuiter/home" href="#" className={`list-group-item ${active === 'home'?'active':''}`}>
                     <div className="row">
                         <div className="col-2"><i className="fa fa-house"></i></div>
                         <div className="col-10 d-none d-xl-block ps-2">Home</div>
                     </div>
-                </a>
-                <a href="/#" className={`list-group-item ${active === 'explore'?'active':''}`}>
+                </Link>
+                <Link to="/tuiter/explore" href="#" className={`list-group-item ${active === 'explore'?'active':''}`}>
                     <div className="row">
                         <div className="col-2"><i className="fa fa-hashtag"></i></div>
                         <div className="col-10 d-none d-xl-block ps-2">Explore</div>
                     </div>
-                </a>
-                <a href="/#" className={`list-group-item ${active === 'notifications'?'active':''}`}>
+                </Link>
+                <Link to="/tuiter/notifications" href="#" className={`list-group-item ${active === 'notifications'?'active':''}`}>
                     <div className="row">
                         <div className="col-2"><i className="fa fa-bell"></i></div>
                         <div className="col-10 d-none d-xl-block ps-2">Notifications</div>
                     </div>
-                </a>
-                <a href="/#" className={`list-group-item ${active === 'messages'?'active':''}`}>
+                </Link>
+                <Link to="/tuiter/messages" href="#" className={`list-group-item ${active === 'messages'?'active':''}`}>
                     <div className="row">
                         <div className="col-2"><i className="fa fa-envelope"></i></div>
                         <div className="col-10 d-none d-xl-block ps-2">Messages</div>
                     </div>
-                </a>
-                <a href="/#" className={`list-group-item ${active === 'bookmarks'?'active':''}`}>
+                </Link>
+                <Link to="/tuiter/bookmarks" href="#" className={`list-group-item ${active === 'bookmarks'?'active':''}`}>
                     <div className="row">
                         <div className="col-2"><i className="fa fa-bookmark"></i></div>
                         <div className="col-10 d-none d-xl-block ps-2">Bookmarks</div>
                     </div>
-                </a>
-                <a href="/#" className={`list-group-item ${active === 'lists'?'active':''}`}>
+                </Link>
+                <Link to="/tuiter/lists" href="#" className={`list-group-item ${active === 'lists'?'active':''}`}>
                     <div className="row">
                         <div className="col-2"><i className="fa fa-list"></i></div>
                         <div className="col-10 d-none d-xl-block ps-2">Lists</div>
                     </div>
-                </a>
-                <a href="/#" className={`list-group-item ${active === 'profile'?'active':''}`}>
+                </Link>
+                <Link to="/tuiter/profile" href="#" className={`list-group-item ${active === 'profile'?'active':''}`}>
                     <div className="row">
                         <div className="col-2"><i className="fa fa-user"></i></div>
                         <div className="col-10 d-none d-xl-block ps-2">Profile</div>
                     </div>
-                </a>
-                <a href="/#" className={`list-group-item ${active === 'more'?'active':''}`}>
+                </Link>
+                <Link to="/tuiter/more" href="#" className={`list-group-item ${active === 'more'?'active':''}`}>
                     <div className="row">
                         <div className="col-2">
                             <span className="fa-stack fa-2xs">
@@ -67,10 +69,10 @@ const NavigationSidebar = (
                         </div>
                         <div className="col-10 d-none d-xl-block ps-2">More</div>
                     </div>
-                </a>
+                </Link>
             </div>
             <div className="d-grid mt-2">
-                <a href="/#" className="btn btn-primary btn-block rounded-pill">
+                <a href="#" className="btn btn-primary btn-block rounded-pill">
                     Tuit
                 </a>
             </div>

@@ -22,7 +22,7 @@ const TuitItem = (
     }
 
     return(
-        <li key={tuit._id} className="list-group-item">
+        <li className="list-group-item">
             <div className="row">
                 <div className="col-2">
                     <img width={48} className="rounded-circle" src={`/images/${tuit.image}`} alt="tuiticon"/>
@@ -31,12 +31,16 @@ const TuitItem = (
                     <div>
                         <i className="bi bi-x-lg float-end"
                            onClick={() => deleteTuitHandler(tuit._id)}></i>
-                        {tuit.userName}
+                        <span className={"fw-bold"}>
+                            {tuit.userName}
+                        </span>
+                        &nbsp;
                         <span className="fa-stack fa-2x wd-verify-icon mb-1">
-                            <i className="fas fa-circle fa-stack-2x"></i>
+                            <i className="fas fa-certificate fa-stack-2x wd-blue"></i>
                             <i className="fas fa-check fa-stack-1x fa-inverse"></i>
                         </span>
-                        {tuit.handle} * {tuit.time}
+                        &nbsp;
+                        {tuit.handle} &middot; {tuit.time}
                     </div>
                     <div>
                         {tuit.tuit}

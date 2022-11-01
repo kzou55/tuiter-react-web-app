@@ -1,6 +1,6 @@
 import React from "react";
-import {useSelector} from "react-redux";
 import PostSummaryItem from "./post-summary-item";
+import {useSelector} from "react-redux";
 
 const PostSummaryList = () => {
     const postsArray = useSelector(state => state.tuits)
