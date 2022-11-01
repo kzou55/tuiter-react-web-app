@@ -30,7 +30,7 @@
   {
     "_id": 12,
     "topic": "Web Development",
-    "userName" : "",
+    "userName" : "jQuery",
     "title" : "jQuery",
     "time" : "last week",
     "image" : "../../images/jquery.png",
