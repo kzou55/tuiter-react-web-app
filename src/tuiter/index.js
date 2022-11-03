@@ -20,8 +20,10 @@ function Tuiter() {
     const {pathname} = location;
     const parts = pathname.split('/')
     const pathLength = parts.length
-    const currentNav = parts[pathLength - 1]
-
+    let currentNav = parts[pathLength - 1]
+    if ((currentNav === "tuiter") || (currentNav === "")) {
+        currentNav = "home"
+    }
     return (
         <Provider store={store}>
             <div className="row mt-2">
@@ -31,6 +33,7 @@ function Tuiter() {
                 <div className="col-10 col-md-10 col-lg-7 col-xl-6"
                      style={{"position": "relative"}}>
                     <Routes>
+                        <Route index element={<HomeComponent/>}/>
                         <Route path="home" element={<HomeComponent/>}></Route>
                         <Route path="explore" element={<ExploreComponent/>}></Route>
                     </Routes>

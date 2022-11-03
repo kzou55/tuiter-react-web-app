@@ -11,7 +11,7 @@ const NavigationSidebar = (
     return (
         <div>
             <div className="list-group">
-                <Link to="/tuiter" href="#" className={`list-group-item ${active === 'tuiter'?'active':''}`}>
+                <Link to="/tuiter" href="#" className={"list-group-item"}>
                     <div className="row">
                         <div className="col-2"><i className="fab fa-twitter"></i></div>
                         <div className="col-10 d-none d-xl-block ps-2">Tuiter</div>
