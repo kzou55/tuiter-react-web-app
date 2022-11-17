@@ -12,7 +12,6 @@ const TuitsList = () => {
 
     return(
         <ul className="list-group">
-            {console.log(tuits)}
             {
                 loading &&
                 <li className="list-group-item">
