@@ -1,7 +1,6 @@
-import React, {useEffect} from "react";
 import TuitStats from "./TuitStats";
 import {useDispatch} from "react-redux";
-import {deleteTuitThunk, findTuitsThunk} from "../../services/tuits-thunks";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = (
     {
